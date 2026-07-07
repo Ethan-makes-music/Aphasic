@@ -1,0 +1,13 @@
+﻿<Window x:Class="micMute.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:micMute"
+        mc:Ignorable="d"
+        Title="MicMute" Height="400" Width="400">
+    <Canvas>  
+        <Image x:Name="MutedImage" Source="/images/muted.png" Width="40" Visibility="Hidden" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+        <Image x:Name="NotMutedImage" Source="/images/notmuted.png" Width="40" Visibility="Visible" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
+    </Canvas>
+</Window>
