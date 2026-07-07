@@ -1,5 +1,5 @@
 # ChangeLog
-This is inspired by the [FNF changelog](https://github.com/FunkinCrew/Funkin/blob/main/CHANGELOG.md?plain=1)
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 Written by [Axuko](https://github.com/Ethan-makes-music?tab=repositories)
 
