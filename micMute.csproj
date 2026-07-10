@@ -11,6 +11,7 @@
   <ItemGroup>
     <Resource Include="images/muted.png" />
     <Resource Include="images/notmuted.png" />
+    <Resource Include="images/as_icon.ico" />
   </ItemGroup>
 
 </Project>

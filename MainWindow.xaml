@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:micMute"
         mc:Ignorable="d"
-        Title="MicMute" Height="400" Width="400">
+        Title="Aphasic" Height="400" Width="400"
+        Icon="images/as_icon.ico">
     <Canvas>  
         <Image x:Name="MutedImage" Source="/images/muted.png" Width="40" Visibility="Hidden" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
         <Image x:Name="NotMutedImage" Source="/images/notmuted.png" Width="40" Visibility="Visible" MouseLeftButtonDown="Image_MouseLeftButtonDown"/>
